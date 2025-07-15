@@ -24,4 +24,3 @@ with DAG('complexa_dag',
 task1 >> task2
 task3 >> task4
 [task2,task4] >> task5 >> task6
-task6 >> [task7,task8,task9]
